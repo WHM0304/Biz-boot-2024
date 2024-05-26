@@ -1,0 +1,23 @@
+spring:
+  application.name : Sp-boot-make-001
+
+  thymeleaf:
+    prefix: classpath:/views/
+    suffix: .html
+    mode: HTML
+  mvc.static-path-pattern: classpath:/static/**
+  web.resources.static-locations: classpath:/static/
+  config:
+    import: classpath:db_config.yaml
+
+
+
+
+
+
+
+logging.level.com.whm0304.make: debug
+
+
+
+
